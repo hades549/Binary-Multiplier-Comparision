@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module tb_ApproximateMultiplier;
+module Radix4_multiplier_with_CLA_tb;
 
     reg signed [7:0] M;
     reg signed [7:0] B;
@@ -13,7 +13,7 @@ module tb_ApproximateMultiplier;
     integer fail_count;
 
     // Instantiate the Unit Under Test (UUT)
-    ApproximateMultiplier uut ( .M(M), .B(B), .out(out) );
+    Radix4_multiplier_with_CLA uut ( .M(M), .B(B), .out(out) );
 
     initial begin
         // Initialize Counters

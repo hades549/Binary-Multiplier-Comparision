@@ -5,7 +5,7 @@
 // 
 // Create Date: 09/29/2026 10:51:48 PM
 // Design Name: 
-// Module Name: ApproximateMultiplier
+// Module Name: Radix4_multiplier_with_CLA
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ApproximateMultiplier(input signed [7:0] M, B,
+module Radix4_multiplier_with_CLA(input signed [7:0] M, B,
                              output signed [15:0] out);
                              
                              parameter case0 = 3'b000;
