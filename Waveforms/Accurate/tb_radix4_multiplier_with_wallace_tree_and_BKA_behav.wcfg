@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_radix4_multiplier_with_wallace_tree_and_BKA_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_radix4_multiplier_with_wallace_tree_and_BKA" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="65,542,996 ps"></ZoomStartTime>
+      <ZoomEndTime time="65,543,001 ps"></ZoomEndTime>
+      <Cursor1Time time="65,543,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="249"></NameColumnWidth>
+      <ValueColumnWidth column_width="173"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/M" type="array">
+      <obj_property name="ElementShortName">M[7:0]</obj_property>
+      <obj_property name="ObjectShortName">M[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/out" type="array">
+      <obj_property name="ElementShortName">out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/vectors" type="array">
+      <obj_property name="ElementShortName">vectors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vectors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/xcount" type="array">
+      <obj_property name="ElementShortName">xcount[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xcount[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/err" type="array">
+      <obj_property name="ElementShortName">err[31:0]</obj_property>
+      <obj_property name="ObjectShortName">err[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/abs_err" type="array">
+      <obj_property name="ElementShortName">abs_err[31:0]</obj_property>
+      <obj_property name="ObjectShortName">abs_err[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/max_err" type="array">
+      <obj_property name="ElementShortName">max_err[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_err[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/sum_abs" type="other">
+      <obj_property name="ElementShortName">sum_abs</obj_property>
+      <obj_property name="ObjectShortName">sum_abs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/sum_sq" type="other">
+      <obj_property name="ElementShortName">sum_sq</obj_property>
+      <obj_property name="ObjectShortName">sum_sq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/expected" type="array">
+      <obj_property name="ElementShortName">expected[15:0]</obj_property>
+      <obj_property name="ObjectShortName">expected[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_radix4_multiplier_with_wallace_tree_and_BKA/STRICT" type="array">
+      <obj_property name="ElementShortName">STRICT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STRICT[31:0]</obj_property>
+   </wvobject>
+</wave_config>
